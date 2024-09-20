@@ -1,0 +1,40 @@
+.feed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr ));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    margin-top: 15px;
+    margin-top: 5.2rem;
+}
+.card img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    margin: 5px 0;
+}
+.channal{
+    display: flex;
+    .img_channel{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        object-fit: contain;
+        margin-right: 10px;
+    }
+}
+
+.card h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    margin: 5px 0;
+}
+.card p{
+    font-size: 14px;
+
+}

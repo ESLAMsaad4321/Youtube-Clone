@@ -1,0 +1,17 @@
+.side-channal{
+    display: flex;
+    margin-bottom: 8px;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    .channel_image{
+     height: 150px;
+     border-radius: 50%;
+     width: 150px;
+     object-fit: cover;
+   }
+   .channel-info{
+    margin-left: -175px;
+   }
+  }

@@ -1,0 +1,123 @@
+@import '../../base';
+
+.searched {
+    flex-basis: 30%;
+    padding-top: 100px;
+  
+  }
+  
+  .side-video-list {
+    display: flex;
+    margin-bottom: 8px;
+  }
+  .side-channal-list {
+    display: flex;
+    margin-bottom: 8px;
+    justify-content: center;
+    .channel_image{
+     height: 150px;
+     border-radius: 50%;
+     width: 150px;
+     object-fit: cover;
+   }
+  }
+
+  .channel-info {
+    flex-basis: 57%;
+    padding-left: 175px;
+    padding-top: 25px;
+    h4 {
+      font-size: 15px;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: black;
+      padding-bottom: 7px;
+    }
+    p{
+      padding-bottom: 5px;
+    }
+  }
+
+  
+  hr{
+    margin-bottom: 15px;
+  }
+  .vid-info {
+    flex-basis: 57%;
+    margin-left: 15px;
+  }
+  
+  .vid-info h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .side-video-list .image{
+    height: 300px;
+    border-radius: 10px;
+    flex-basis: 40%;
+    width: 50%;
+    object-fit: cover;
+  }
+  .channel{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    p{
+      padding-top: 8px;
+      font-size: 14px;
+    }
+  }
+  .img_channel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  @media (max-width:$breakpoint-small){
+    .side-video-list{
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .side-video-list .image{
+      flex-basis: 100%;
+      width: 90%;
+    }
+    .vid-info{
+      margin-top: 5px;
+      p{
+        padding-left: 20px;
+      }
+    }
+    .img_channel{
+      position: absolute;
+      bottom: 18px;
+      left: 4px;
+      width: 50px;
+      height: 50px;
+    }
+    .img_channel_small{
+      width: 30px;
+      height: 30px;
+      bottom: 25px;
+      left: 4px;
+    }
+    .channel p{
+      padding-top: 0;
+    }
+    .channel-info{
+      padding-left: 30px;
+    }
+    .side-channal-list{
+      flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        text-align: center;
+    }
+  }
